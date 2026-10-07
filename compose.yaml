@@ -1,0 +1,8 @@
+services:
+  diagnostic:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: diagnostic-tool
+    container_name: diagnostic-tool
+    init: true
